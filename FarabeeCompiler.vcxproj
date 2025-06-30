@@ -132,6 +132,7 @@
     <ClInclude Include="generator.h" />
     <ClInclude Include="lexer.h" />
     <ClInclude Include="parser.h" />
+    <ClInclude Include="tokens.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="example.frb" />

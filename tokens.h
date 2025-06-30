@@ -1,0 +1,12 @@
+#ifndef TOKENS_H
+#define TOKENS_H
+
+typedef enum {
+	TOKEN_LET,
+	TOKEN_IDENTIFIER,
+	TOKEN_INTEGER,
+	TOKEN_BE,
+	TOKEN_ENDOFFUNCTION
+} TokenType;
+
+#endif // !TOKENS_H

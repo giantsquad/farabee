@@ -127,6 +127,7 @@
     <ClCompile Include="lexer.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="parser.c" />
+    <ClCompile Include="tokens.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="generator.h" />
@@ -135,7 +136,8 @@
     <ClInclude Include="tokens.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="example.frb" />
+    <None Include="program.frb" />
+    <None Include="readme.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

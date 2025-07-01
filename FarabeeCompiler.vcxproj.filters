@@ -27,6 +27,9 @@
     <ClCompile Include="generator.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="tokens.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lexer.h">
@@ -43,6 +46,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="example.frb" />
+    <None Include="program.frb" />
+    <None Include="readme.md" />
   </ItemGroup>
 </Project>

@@ -5,11 +5,15 @@ pub enum TokenType {
     TokenSay, // Basic print
     TokenIdentifier,
     TokenInteger,
+    // TokenString,
+    // TokenCharacter,
+    // TokenComma,
     TokenIf,
     TokenElse,
     TokenIs, // Equivalent to "=="
     TokenEnd, // Equivalent to ";"
     TokenEof,
+    TokenUnknown
 }
 
 #[derive(Debug, Clone)]

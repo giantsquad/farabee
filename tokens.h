@@ -12,6 +12,7 @@ typedef enum {
 	TOKEN_IS, // Equivalent to "==" pair. Used to see if left side is the same as right side
 	TOKEN_IF,
 	// TOKEN_COMMA,
+	TOKEN_SAY, // Print
 	TOKEN_EOF, // End of file
 	TOKEN_UNKNOWN // Used for anytime something doesn't seem to be recognized
 } TokenType;

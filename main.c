@@ -8,7 +8,7 @@
 int main() {
 	FILE* f = fopen("program.frb", "r");
 	if (!f) {
-		printf("ERROR: Failed to open Farabee file.");
+		fprintf(stderr, "ERROR: Failed to open Farabee file.\n");
 		return 1;
 	}
 
@@ -27,7 +27,7 @@ int main() {
     int tokenCount = 0;
     Token* tokens = tokenize(source, &tokenCount);
     if (!tokens) {
-        printf("Tokenization failed.\n");
+        fprintf(stderr, "Tokenization failed.\n");
         free(source);
         return 1;
     }

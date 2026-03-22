@@ -13,7 +13,7 @@ pub enum TokenType {
     TokenIs, // Equivalent to "=="
     TokenEnd, // Equivalent to ";"
     TokenEof,
-    TokenUnknown
+    TokenUnknown // May be used for errors or uncaught types
 }
 
 #[derive(Debug, Clone)]

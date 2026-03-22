@@ -1,6 +1,10 @@
 [package]
 name = "FarabeeRust"
 version = "0.1.0"
+authors = ["Sameer Syed"]
 edition = "2024"
+categories = ["parser-implementations"]
+repository = "https://github.com/giantsquad/farabee"
+description = "An easy-to-read language for learners"
 
 [dependencies]

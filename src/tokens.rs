@@ -3,11 +3,11 @@ pub enum TokenType {
     TokenLet,
     TokenBe, // Equivalent to "="
     TokenSay, // Basic print
-    TokenIdentifier,
+    TokenIdentifier, // variable names
     TokenInteger,
-    // TokenString,
-    // TokenCharacter,
-    // TokenComma,
+    TokenString,
+    TokenCharacter,
+    TokenComma,
     TokenIf,
     TokenElse,
     TokenIs, // Equivalent to "=="
